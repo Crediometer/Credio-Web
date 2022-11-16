@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url(./Fonts/FontsFree-Net-SFProText-Regular.ttf);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+    --mainbackgroundcolor: #E5E5E5;
+    --topbarbackgroundcolor: #424242;
+    --textcolor1: #861F41;
+    --textcolor2: #C4C4C4;
+    --textcolor3: #363636;
+    --buttoncolor: #23CB1F;
+    --searchbartext:#9B9898;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App{
+    display: flex;
+    width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app-contain{
+    width: calc(100% - 300px);
+    margin-left: 300px;
 }
-
-.App-link {
-  color: #61dafb;
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 90px;
+    margin-left: 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a{
+    text-decoration: none;
+}
+@media (max-width: 800px){
+    .app-contain{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .container{
+        margin-left: 0px;
+    }
 }

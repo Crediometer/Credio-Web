@@ -1,0 +1,213 @@
+.overview{
+    padding: 30px;
+}
+.overview-body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.overview-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #861F41;
+}
+.financial-report{
+    background-color: white;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.overview-subheader{
+    display: flex;
+    justify-content: space-between;
+}
+.overview-subheader p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #363636;
+}
+.overview-sort{
+    display: flex; 
+    align-items: center;  
+}
+.overview-sort p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #9B9898;
+}
+.overview-sort svg{
+    color:  #861F41;
+    margin-left: 5px;
+}
+/* .chart-style{
+
+} */
+.your-card{
+    width: 500px;
+    padding: 40px;
+}
+.card-header{    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #363636;
+}
+.cards{
+    position: relative;
+}
+.card-1{
+    padding: 20px;
+    width: 350px;
+    height: 180px;
+    border-radius: 10px;
+    background-image: url(../../images/card1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.account-balance{
+    margin-top: 30px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.account-name{
+    margin-top: 10px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.card-2{
+    position: absolute;
+    bottom: -15%;
+    right: 10%;
+    padding: 20px;
+    width: 250px;
+    height: 120px;
+    border-radius: 10px;
+    background-image: url(../../images/card2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.master-card-2{
+    width: 60px;
+}
+.account-balance-2{
+    margin-top: 20px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.account-name-2{
+    margin-top: 10px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.recent-transaction{
+    background-color: white;
+    width: 550px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.recent-transaction-body{
+    margin-top: 20px;
+}
+.recent-date{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #787878;
+}
+.first-recent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.recent-left{
+    display: flex;
+    align-items: center;
+}
+.loss{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 7px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.loss svg{
+    font-size: 30px;
+    color: #861F41;
+    font-weight: 600;
+}
+.transaction-body{
+    margin-left: 15px;
+}
+.transfer-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+.transfer-name span{
+    font-weight: 500;
+}
+.transfer-time{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #9B9898;
+}
+.transfer-amount{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #861F41;
+}
+.transfer-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #9B9898;
+}
+.your-chat{
+    width: 450px;
+    padding: 20px;
+}
+@media (max-width: 800px) {
+    .overview{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .financial-report, .your-card, .your-chat, .recent-transaction{
+        width: 70%;
+    }
+}

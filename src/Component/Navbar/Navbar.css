@@ -1,0 +1,89 @@
+.navbar{
+    position: fixed;
+    height: 90px;
+    width: calc(100% - 300px);
+    margin-left: 0px;
+    background-color: #424242;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 4;
+}
+.searchbar-container{
+    margin-left: 40px;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    color: var(--searchbartext);
+}
+.searchicon svg{
+    font-size: 14px;
+}
+.notificationSide{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    justify-content: space-between;
+    width: 25%;
+}
+.navbar-button button{
+    width: 100px;
+    height: 40px;
+    background-color: #861F41;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.bell{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: var(--searchbartext);
+    font-size: 25px;
+}
+.bellnumber{
+    position: absolute;
+    top:0;
+    left: 14px;
+}
+
+.bellnumber p{
+    text-align: center;
+    color: white;
+    font-size: 0.6rem;
+    background-color: #D53434;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+}
+.help{
+    color: var(--searchbartext);
+}
+.dropbox{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    color: var(--searchbartext);
+}
+.dropbox p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.dropicon svg{
+    font-size: 11px;
+}
+@media (max-width: 800px) {
+    .navbar{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

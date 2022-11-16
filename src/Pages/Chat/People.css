@@ -1,0 +1,13 @@
+.people{
+    padding: 40px;
+    width: 100%;
+}
+.people-header{
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #363636;
+}

@@ -1,0 +1,23 @@
+.chatoverview{
+    width: 100%;
+    padding: 40px;
+}
+.chatoverview-header{
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #861F41;
+}
+.chatoverview-body{
+    margin-top: 30px;
+}
+.chatoverview-date{
+    margin-top: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #787878;
+}
