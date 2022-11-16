@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Credio-Web/static/css/main.20c17029.css",
+    "main.js": "/Credio-Web/static/js/main.b89a1826.js",
+    "static/media/logo.svg": "/Credio-Web/static/media/logo.d562c73edbefce8403db1a1ec7647cd7.svg",
+    "static/media/FontsFree-Net-SFProText-Regular.ttf": "/Credio-Web/static/media/FontsFree-Net-SFProText-Regular.90da7ab18293ca42e335.ttf",
+    "static/media/card1.png": "/Credio-Web/static/media/card1.353acb510ff26d43f4bb.png",
+    "static/media/card2.png": "/Credio-Web/static/media/card2.a87b67e7eb573d58c809.png",
+    "index.html": "/Credio-Web/index.html",
+    "main.20c17029.css.map": "/Credio-Web/static/css/main.20c17029.css.map",
+    "main.b89a1826.js.map": "/Credio-Web/static/js/main.b89a1826.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c17029.css",
+    "static/js/main.b89a1826.js"
+  ]
+}
