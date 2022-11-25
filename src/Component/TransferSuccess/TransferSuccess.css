@@ -1,0 +1,26 @@
+.bycard-bottom{
+    margin-top: 10px;
+}
+.from-to, .amount-commission{
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.trans-head{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.trans-body{
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.56);
+}
+.trans-body-2{
+    margin-top: 20px;
+}

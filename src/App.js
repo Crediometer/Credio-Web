@@ -8,6 +8,10 @@ import ChatOverview from './Pages/Chat/ChatOverview';
 import People from './Pages/Chat/People';
 import Chat from './Pages/Chat/Chat';
 import Transfer from './Pages/Chat/Transfer';
+import Receipt from './Pages/Receipt/Receipt';
+import Cards from './Pages/Cards/Card';
+import ByCard from './Pages/Cards/ByCard';
+import ByCardSuccess from './Pages/Cards/ByCardSuccess';
 function App() {
   return (
       <div className="App">
@@ -22,6 +26,10 @@ function App() {
               <Route exact path='/people' element={<People/>}></Route>
               <Route exact path='/chat' element={<Chat/>}></Route>
               <Route exact path='/transfer' element={<Transfer/>}></Route>
+              <Route exact path='/receipt' element={<Receipt/>}></Route>
+              <Route exact path='/card' element={<Cards/>}></Route>
+              <Route exact path='/bycard' element={<ByCard/>}></Route>
+              <Route exact path='/bycardsuccess' element={<ByCardSuccess/>}></Route>
             </Routes>
           </div>
         </div>

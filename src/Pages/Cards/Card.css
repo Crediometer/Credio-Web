@@ -1,0 +1,79 @@
+.card{
+    padding: 40px;
+    width: 100%;
+}
+.card-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #861F41;
+}
+.your-balance{
+    padding: 30px;
+    background-color: #861F41;
+    border-radius: 8px;
+}
+.your-balance-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.your-balance-amount{
+    margin-left: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.card-details-title{
+    margin-bottom: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #212020;
+}
+.card-details-inner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.addanother{
+    width: 20%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #982C31;
+}
+.card-bottom{
+    margin-top: 20px;
+}
+.card-bottom-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #982C31;
+}
+.account-action-text, .account-record-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+.card-bottom-action{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}

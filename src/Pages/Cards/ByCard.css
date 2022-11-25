@@ -1,0 +1,17 @@
+.bycard{
+    padding: 40px;
+    width: 100%;
+}
+.bycard-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #861F41;
+}
+.bycard-top{
+    margin-top: 20px;
+}
+.bycard-bottom{
+    width: 100%;
+}

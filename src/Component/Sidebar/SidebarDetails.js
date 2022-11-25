@@ -22,7 +22,7 @@ export const SidebarDetails = [
     {
         title:"Reports",
         icon:<FiBarChart2/>,
-        link:"/report"
+        link:"/receipt"
     },
     {
         title:"Chats",

@@ -7,6 +7,94 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .amount-input{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
+}
+.amount-body{
+    display: flex;
+    align-items: center;
+}
+.currency{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #861F41;
+}
+.currency-input{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 60px;
+    width: 100px;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+.currency-input::placeholder{
+    font-size: 45px;
+}
+.currency-submit{
+    width: 100px;
+    height: 60px;
+    background: #F9ECE0;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #861F41;
+}
+.transfer-bank{
+    margin-top: 50px;
+}
+.transfer-bank-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #861F41;
+}
+.transfer-bank-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.transfer-bank-left{
+    display: flex;
+    align-items: center;
+}
+.bank-logo img{
+    width: 100px;
+}
+.bank-details{
+    margin-left: 10px;
+}
+.bank-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+}
+.account-type{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #959393;
+}
+.transfer-bank-right{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #861F41;
+}
+.transfer-bank-right svg{
+    font-size: 20px;
+    color: white;
 }
